@@ -8,17 +8,97 @@
 </head>
 
 <body>
-   <img src="images/logo.jpg" alt="NYU Logo">
-   <h1>Andriy Lunin</h1>
-   <p>
-      <em><a href="https://www.nyu.edu/">NYU</a><strong> Math Major</strong></em>
-   </p>
-   <p>I am an NYU double major in Computer science and Math.</p>
+   <table cellspacing="20">
+      <!--cellspacing has been deprecated as it can be done with CSS in a more efficient way-->
+      <tbody>
+         <tr>
+            <td><img src="images/logo.jpg" alt="NYU Logo" title="NYU" width=260" height="200"></td>
+            <td>
+               <h1>Andriy Lunin</h1>
+               <p>
+                  <em><a href="https://www.nyu.edu/">NYU</a><strong> Math Major</strong></em>
+               </p>
+
+               <p>
+                  I am an NYU double major in Computer science and Math.
+               </p>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+
+
    <hr size="2" noshade="" />
+
    <a href="hobbies.html">My Hobbies</a>
-   <br>
-   <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download cheatsheet</a>
-   <h4>Don't hesitate to <a href="contact.html">contact</a> me</h4>
+   <h3>Work Experience</h3>
+
+   <table cellspacing = "10">
+      <!--table border="2">-->
+      <thead>
+         <tr>
+            <th>Year</th>
+            <!--table header-->
+            <th>Occupation</th>
+         </tr>
+      </thead>
+      <!--Gotta split the table into head body and foot, so that you can manipulate the parts of the table with CSS-->
+      <tbody>
+         <tr>
+            <td>2017</td>
+            <td>High School</td>
+         </tr>
+         <tr>
+            <td>2018</td>
+            <td>NYU Student</td>
+         </tr>
+      </tbody>
+
+      <tfoot>
+
+      </tfoot>
+   </table>
+<hr>
+   <h3>My Skills</h3>
+   <table>
+      <tbody>
+            <td>
+               <table cellspacing = "10">
+                  <tr>
+                     <td>Ruby on Rails</td>
+                     <td>&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</td>
+                  </tr>
+                  <tr>
+                     <td>C++</td>
+                     <td>&#x2B50;&#x2B50;&#x2B50;&#x2B50;</td>
+                  </tr>
+               </table>
+            </td>
+            <td>
+               <table cellspacing = "10">
+                  <tr>
+                     <td>Python</td>
+                     <td>&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</td>
+                  </tr>
+                  <tr>
+                     <td>Objective C</td>
+                     <td>&#x2B50;&#x2B50;</td>
+                  </tr>
+               </table>
+            </td>
+      </tbody>
+   </table>
+
+
+
+
+
+
+   <hr>
+
+   <p>
+      <h4>Don't hesitate to <a href="contact.html">contact</a> me</h4>
+   </p>
 </body>
 
 </html>
